@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "【物理基礎】波とエネルギー",
     "section": "",
-    "text": "はじめに\n物理基礎の波の分野の授業棒用資料です。\n\n1 + 1\n\n2",
+    "text": "はじめに\n物理基礎の波の分野の授業棒用資料です。\nPDFはこちらから\n（WEB資料と対応しています）\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# 螺旋を描画する\nt = np.linspace(0, 6*np.pi, 500)\nr = 1 - t/(6*np.pi)\ncolors = plt.cm.viridis(np.linspace(0, 1, len(t)))\n\nplt.figure(figsize=(5, 5))\n_ = [\n    plt.plot(\n        [r[i]*np.cos(t[i]), r[i+1]*np.cos(t[i+1])],\n        [r[i]*np.sin(t[i]), r[i+1]*np.sin(t[i+1])],\n        color=colors[i],\n        linewidth=2\n    )\n    for i in range(len(t) - 1)\n]\n\n_ = plt.axis('equal')  # 返り値を無視して描画のみ\n_ = plt.axis('off')    # 軸非表示の返り値を無視\n_ = plt.show()         # plt.show()の返り値を無視",
     "crumbs": [
       "はじめに"
     ]

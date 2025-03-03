@@ -6,6 +6,31 @@ jupyter: python3
 
 物理基礎の波の分野の授業棒用資料です。
 
+[PDFはこちらから](https://phys-ken.github.io/demo_wave_2025/%E3%80%90%E7%89%A9%E7%90%86%E5%9F%BA%E7%A4%8E%E3%80%91%E6%B3%A2%E3%81%A8%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC.pdf)
+
+（WEB資料と対応しています）
+
 ```{python}
-1 + 1
+import numpy as np
+import matplotlib.pyplot as plt
+
+# 螺旋を描画する
+t = np.linspace(0, 6*np.pi, 500)
+r = 1 - t/(6*np.pi)
+colors = plt.cm.viridis(np.linspace(0, 1, len(t)))
+
+plt.figure(figsize=(5, 5))
+_ = [
+    plt.plot(
+        [r[i]*np.cos(t[i]), r[i+1]*np.cos(t[i+1])],
+        [r[i]*np.sin(t[i]), r[i+1]*np.sin(t[i+1])],
+        color=colors[i],
+        linewidth=2
+    )
+    for i in range(len(t) - 1)
+]
+
+_ = plt.axis('equal')  # 返り値を無視して描画のみ
+_ = plt.axis('off')    # 軸非表示の返り値を無視
+_ = plt.show()         # plt.show()の返り値を無視
 ```
