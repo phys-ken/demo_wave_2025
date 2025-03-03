@@ -1,16 +1,15 @@
 project:
   type: book
+  output-dir: docs    # プロジェクト全体の出力先を docs/ に変更
 
 book:
-  title: "demo_2025wave"
-  author: "Norah Jones"
+  title: "【物理基礎】波とエネルギー"
+  author: "phys-ken"
   date: "2025/3/2"
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
     - nami_no_arawashikata.qmd
+    - references.qmd
 
 bibliography: references.bib
 
@@ -20,7 +19,18 @@ format:
       - cosmo
       - brand
   pdf:
-    documentclass: scrreprt
+    output-dir: docs/pdfs   # PDFは docs/pdfs/ に出力
+    language: ja            # 日本語対応
+    pdf-engine: lualatex
+    documentclass: bxjsbook
+    number-sections: true
+    include-in-header:
+      text: |
+        \usepackage{luatexja}
+        \usepackage{luatexja-fontspec}
+        \setmainjfont{IPAexMincho}  % 日本語フォント指定
+        \setsansjfont{IPAexGothic}
+        \setmonojfont{IPAGothic}
+
 
 editor: visual
-

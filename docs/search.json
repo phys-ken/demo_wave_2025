@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "【物理基礎】波とエネルギー",
+    "section": "",
+    "text": "はじめに\n物理基礎の波の分野の授業棒用資料です。\n\n1 + 1\n\n2",
+    "crumbs": [
+      "はじめに"
+    ]
+  },
+  {
+    "objectID": "nami_no_arawashikata.html",
+    "href": "nami_no_arawashikata.html",
+    "title": "1  波の表し方",
+    "section": "",
+    "text": "1.1 はじめに",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>波の表し方</span>"
+    ]
+  },
+  {
+    "objectID": "nami_no_arawashikata.html#はじめに",
+    "href": "nami_no_arawashikata.html#はじめに",
+    "title": "1  波の表し方",
+    "section": "",
+    "text": "波とは何でしょうか？",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>波の表し方</span>"
+    ]
+  },
+  {
+    "objectID": "nami_no_arawashikata.html#波の定義",
+    "href": "nami_no_arawashikata.html#波の定義",
+    "title": "1  波の表し方",
+    "section": "1.2 波の定義",
+    "text": "1.2 波の定義\n\n物理を学ぶ上で、言葉の定義を正しく理解することはとても重要です。",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>波の表し方</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "2  References",
+    "section": "",
+    "text": "Einstein’s theory of relativity is groundbreaking (Einstein 1905).\n\n\n\n\nEinstein, Albert. 1905. “On the Electrodynamics of Moving Bodies.” Annalen Der Physik 17: 891–921.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>References</span>"
+    ]
+  }
+]

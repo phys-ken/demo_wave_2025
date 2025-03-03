@@ -1,4 +1,3 @@
-# References {.unnumbered}
+# References
 
-::: {#refs}
-:::
+Einstein's theory of relativity is groundbreaking [@Einstein1905].

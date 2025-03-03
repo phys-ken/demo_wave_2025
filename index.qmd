@@ -2,11 +2,9 @@
 jupyter: python3
 ---
 
-# Preface {.unnumbered}
+# はじめに {.unnumbered}
 
-This is a Quarto book.
-
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+物理基礎の波の分野の授業棒用資料です。
 
 ```{python}
 1 + 1
