@@ -1,0 +1,26 @@
+project:
+  type: book
+
+book:
+  title: "demo_2025wave"
+  author: "Norah Jones"
+  date: "2025/3/2"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+    - nami_no_arawashikata.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
