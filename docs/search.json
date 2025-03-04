@@ -4,7 +4,17 @@
     "href": "index.html",
     "title": "【物理基礎】波とエネルギー",
     "section": "",
-    "text": "はじめに\n物理基礎の波の分野の授業棒用資料です。\nPDFはこちらから\n（WEB資料と対応しています）\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# 螺旋を描画する\nt = np.linspace(0, 6*np.pi, 500)\nr = 1 - t/(6*np.pi)\ncolors = plt.cm.viridis(np.linspace(0, 1, len(t)))\n\nplt.figure(figsize=(5, 5))\n_ = [\n    plt.plot(\n        [r[i]*np.cos(t[i]), r[i+1]*np.cos(t[i+1])],\n        [r[i]*np.sin(t[i]), r[i+1]*np.sin(t[i+1])],\n        color=colors[i],\n        linewidth=2\n    )\n    for i in range(len(t) - 1)\n]\n\n_ = plt.axis('equal')  # 返り値を無視して描画のみ\n_ = plt.axis('off')    # 軸非表示の返り値を無視\n_ = plt.show()         # plt.show()の返り値を無視",
+    "text": "はじめに\n物理基礎の波の分野の授業補助資料です。",
+    "crumbs": [
+      "はじめに"
+    ]
+  },
+  {
+    "objectID": "index.html#在校生へ",
+    "href": "index.html#在校生へ",
+    "title": "【物理基礎】波とエネルギー",
+    "section": "在校生へ",
+    "text": "在校生へ\n\nこのページは、あくまで授業の補助資料です。演習問題等は著作権の関係で一般公開でウェブ公開することはできません。Google classroomの添付資料を確認してください。",
     "crumbs": [
       "はじめに"
     ]
@@ -14,39 +24,129 @@
     "href": "nami_no_arawashikata.html",
     "title": "1  波の表し方",
     "section": "",
-    "text": "1.1 はじめに",
+    "text": "1.1 波の表し方",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>波の表し方</span>"
     ]
   },
   {
-    "objectID": "nami_no_arawashikata.html#はじめに",
-    "href": "nami_no_arawashikata.html#はじめに",
+    "objectID": "nami_no_arawashikata.html#波の表し方",
+    "href": "nami_no_arawashikata.html#波の表し方",
     "title": "1  波の表し方",
     "section": "",
-    "text": "波とは何でしょうか？",
+    "text": "「振動が伝わっていく現象」を、波と呼びます。以下の映像教材を参考に、波を表す様々な言葉を正しく理解しましょう。",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>波の表し方</span>"
     ]
   },
   {
-    "objectID": "nami_no_arawashikata.html#波の定義",
-    "href": "nami_no_arawashikata.html#波の定義",
+    "objectID": "nami_no_arawashikata.html#波を表すグラフ",
+    "href": "nami_no_arawashikata.html#波を表すグラフ",
     "title": "1  波の表し方",
-    "section": "1.2 波の定義",
-    "text": "1.2 波の定義\n\n物理を学ぶ上で、言葉の定義を正しく理解することはとても重要です。",
+    "section": "1.2 波を表すグラフ",
+    "text": "1.2 波を表すグラフ\n\n波を表すグラフは2通りあります。目に見えた波の形をそのままグラフにしたy-xグラフと、ある一点の位置の変化に注目したy-tグラフの2種類です。\n\n\n物理の理解のためには、同じ理論や現象を複数の方法で説明することが効果的です。例えば、2種類のグラフについて、このような方法で説明されることもあります。",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>波の表し方</span>"
+    ]
+  },
+  {
+    "objectID": "nami_no_arawashikata.html#演習問題の取り組み方",
+    "href": "nami_no_arawashikata.html#演習問題の取り組み方",
+    "title": "1  波の表し方",
+    "section": "1.3 演習問題の取り組み方",
+    "text": "1.3 演習問題の取り組み方\n\n演習問題はGoogle classroomにアップされています。\n答えを見てもかまいません。しかし、最終目標は演習問題を理解し、一人で回答できるようになることです。\n他人に説明したり、自分の言葉でまとめなおすことはとても重要です。わからないときは、気軽に質問しましょう。その際、どこがわからないかをしっかり説明しましょう。\n\n「全部わかりません」「初めから教えて」のようなあいまいな質問は、教える側にとっても教わる側にとっても時間の無駄です！「(1)でなんでこの値が0になるのかわからない」「この問題、私は～～だと思うんだけど、どこが間違っているの？」と聞いてください。",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>波の表し方</span>"
+    ]
+  },
+  {
+    "objectID": "renzokuha.html",
+    "href": "renzokuha.html",
+    "title": "2  連続波の表し方",
+    "section": "",
+    "text": "2.1 連続波とは",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>連続波の表し方</span>"
+    ]
+  },
+  {
+    "objectID": "renzokuha.html#連続波とは",
+    "href": "renzokuha.html#連続波とは",
+    "title": "2  連続波の表し方",
+    "section": "",
+    "text": "1個、2個…と数えることができるような孤立した波のことをパルス波と呼びます。 \nそれに対して、1個、2個と数えることができないような連続した波を、連続波といいます。\n高校の物理基礎では、正弦波と呼ばれる最もシンプルな連続波を扱います。 \n\n\n\n\n\n\n\n注意\n\n\n\n「正弦波」は、奥が深い現象です。インターネット等で検索すると、「単振動」と関連付けて説明されたり、「\\(y = A \\sin \\left( 2\\pi \\left( \\frac{x}{\\lambda} - \\frac{t}{T} \\right) \\right)\\)」のように数式で説明されていることもあります。\n物理基礎の学習の段階では細かい言葉遣いはあまり気にせず、「ウネウネした波っぽいやつ」程度に考えてくれれば結構です。",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>連続波の表し方</span>"
+    ]
+  },
+  {
+    "objectID": "renzokuha.html#正弦波を表す量",
+    "href": "renzokuha.html#正弦波を表す量",
+    "title": "2  連続波の表し方",
+    "section": "2.2 正弦波を表す量",
+    "text": "2.2 正弦波を表す量\n\n下記の映像教材を確認して、波長や周期、振動数といった言葉を理解しましょう。 \n\n動画内で登場する\\(v=f\\lambda\\)や\\(f=\\frac{1}{T}\\)は、波の分野の学習でよく使う式です。",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>連続波の表し方</span>"
+    ]
+  },
+  {
+    "objectID": "renzokuha.html#演習問題",
+    "href": "renzokuha.html#演習問題",
+    "title": "2  連続波の表し方",
+    "section": "2.3 演習問題",
+    "text": "2.3 演習問題\n\n前回学習した波の2種類のグラフに関する知識を使って、正弦波をグラフで表してみましょう。\n演習問題は、Google classroomで配信します。\n\n\n2.3.1 参考資料\n\nここまでの学習内容を1本にまとめた動画です。後半の「位相」の部分は、物理基礎の単元では扱いません。",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>連続波の表し方</span>"
+    ]
+  },
+  {
+    "objectID": "kasaneawase_hansya.html",
+    "href": "kasaneawase_hansya.html",
+    "title": "3  波の重ね合わせと反射",
+    "section": "",
+    "text": "3.1 重ね合わせの原理・独立性・反射",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>波の重ね合わせと反射</span>"
+    ]
+  },
+  {
+    "objectID": "kasaneawase_hansya.html#重ね合わせの原理独立性反射",
+    "href": "kasaneawase_hansya.html#重ね合わせの原理独立性反射",
+    "title": "3  波の重ね合わせと反射",
+    "section": "",
+    "text": "まずは、NHK高校講座の映像教材を見て、単元の概要をつかみましょう。\n\n\n\n\n画像をクリック(NHKサイトに飛びます)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>波の重ね合わせと反射</span>"
+    ]
+  },
+  {
+    "objectID": "kasaneawase_hansya.html#作図方法",
+    "href": "kasaneawase_hansya.html#作図方法",
+    "title": "3  波の重ね合わせと反射",
+    "section": "3.2 作図方法",
+    "text": "3.2 作図方法\n\n教科書○ページを見ながら作業しましょう。以下の動画も参考になると思います。\n\n\n3.2.1 重ね合わせの作図\n\n\n\n\n3.2.2 反射波の作図",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>波の重ね合わせと反射</span>"
+    ]
+  },
+  {
+    "objectID": "kasaneawase_hansya.html#演習問題",
+    "href": "kasaneawase_hansya.html#演習問題",
+    "title": "3  波の重ね合わせと反射",
+    "section": "3.3 演習問題",
+    "text": "3.3 演習問題\n\n演習問題はGoogle classroomで配信しています。",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>波の重ね合わせと反射</span>"
     ]
   },
   {
     "objectID": "references.html",
     "href": "references.html",
-    "title": "2  References",
+    "title": "4  References",
     "section": "",
     "text": "Einstein’s theory of relativity is groundbreaking (Einstein 1905).\n\n\n\n\nEinstein, Albert. 1905. “On the Electrodynamics of Moving Bodies.” Annalen Der Physik 17: 891–921.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>References</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>References</span>"
     ]
   }
 ]

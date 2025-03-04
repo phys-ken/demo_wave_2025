@@ -9,6 +9,8 @@ book:
   chapters:
     - index.qmd
     - nami_no_arawashikata.qmd
+    - renzokuha.qmd
+    - kasaneawase_hansya.qmd
     - references.qmd
 
 bibliography: references.bib
@@ -18,19 +20,5 @@ format:
     theme:
       - cosmo
       - brand
-  pdf:
-    output-dir: docs/pdfs   # PDFは docs/pdfs/ に出力
-    language: ja            # 日本語対応
-    pdf-engine: lualatex
-    documentclass: bxjsbook
-    number-sections: true
-    include-in-header:
-      text: |
-        \usepackage{luatexja}
-        \usepackage{luatexja-fontspec}
-        \setmainjfont{IPAexMincho}  % 日本語フォント指定
-        \setsansjfont{IPAexGothic}
-        \setmonojfont{IPAGothic}
-
 
 editor: visual

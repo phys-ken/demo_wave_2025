@@ -11,10 +11,30 @@ jupyter: python3
 -   波の運動を2種類のグラフで表現できる。
 :::
 
-## はじめに
+## 波の表し方
 
--   波とは何でしょうか？
+-   「振動が伝わっていく現象」を、波と呼びます。以下の映像教材を参考に、波を表す様々な言葉を正しく理解しましょう。
 
-## 波の定義
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/nH4aAZ1oVUI?si=XntvYmXB2DhHJsmX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
--   物理を学ぶ上で、言葉の定義を正しく理解することはとても重要です。
+## 波を表すグラフ
+
+-   波を表すグラフは2通りあります。**目に見えた波の形をそのままグラフにしたy-xグラフ**と、**ある一点の位置の変化に注目したy-tグラフ**の2種類です。
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/pYB_velcvRc?si=Sfl3wSm470IuUCij" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+-   物理の理解のためには、同じ理論や現象を複数の方法で説明することが効果的です。例えば、2種類のグラフについて、このような方法で説明されることもあります。
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/oF0K0pKUDC0?si=CfvAXUsVpN8t3ods" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+    </iframe>
+
+## 演習問題の取り組み方
+
+-   演習問題はGoogle classroomにアップされています。
+
+-   答えを見てもかまいません。しかし、最終目標は演習問題を理解し、一人で回答できるようになることです。
+
+-   他人に説明したり、自分の言葉でまとめなおすことはとても重要です。わからないときは、気軽に質問しましょう。その際、どこがわからないかをしっかり説明しましょう。
+
+    -   「全部わかりません」「初めから教えて」のようなあいまいな質問は、教える側にとっても教わる側にとっても時間の無駄です！「(1)でなんでこの値が0になるのかわからない」「この問題、私は～～だと思うんだけど、どこが間違っているの？」と聞いてください。

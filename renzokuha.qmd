@@ -1,0 +1,44 @@
+---
+jupyter: python3
+---
+
+# 連続波の表し方
+
+::: callout-tip
+## このセクションの目標
+
+-   連続波を表す量を正しく理解する。
+-   連続波について、2種類のグラフで正しく表現できる。
+-   波の関係式$v=f \lambda$を正しく適用して、波の速さを求めることができる。
+:::
+
+## 連続波とは
+
+-   1個、2個...と数えることができるような孤立した波のことをパルス波と呼びます。 [![パルス波(【新潟県理化学協会研究部物理グループ】より引用)](images/nami1_fig03.gif)](http://www.info-niigata.or.jp/~ymiyata/butsuri22/33nami1/nami1_02.html)
+-   それに対して、1個、2個と数えることができないような連続した波を、連続波といいます。
+-   高校の物理基礎では、正弦波と呼ばれる最もシンプルな連続波を扱います。 [![正弦波(【新潟県理化学協会研究部物理グループ】より引用)](images/nami1_fig07.gif)](http://www.info-niigata.or.jp/~ymiyata/butsuri22/33nami1/nami1_02.html)
+
+::: callout-warning
+## 注意
+
+「正弦波」は、奥が深い現象です。インターネット等で検索すると、「単振動」と関連付けて説明されたり、「$y = A \sin \left( 2\pi \left( \frac{x}{\lambda} - \frac{t}{T} \right) \right)$」のように数式で説明されていることもあります。
+
+物理基礎の学習の段階では細かい言葉遣いはあまり気にせず、「ウネウネした波っぽいやつ」程度に考えてくれれば結構です。
+:::
+
+## 正弦波を表す量
+
+-   下記の映像教材を確認して、波長や周期、振動数といった言葉を理解しましょう。 <iframe width="560" height="315" src="https://www.youtube.com/embed/NNC-fTe5Rz8?si=-GXYLYQa25ufHunL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+動画内で登場する$v=f\lambda$や$f=\frac{1}{T}$は、波の分野の学習でよく使う式です。
+
+## 演習問題
+
+-   前回学習した波の2種類のグラフに関する知識を使って、正弦波をグラフで表してみましょう。
+-   演習問題は、Google classroomで配信します。
+
+### 参考資料
+
+-   ここまでの学習内容を1本にまとめた動画です。後半の「位相」の部分は、物理基礎の単元では扱いません。
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/j6D6HztBrUU?si=Iq4c3KLac6PBBKnx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

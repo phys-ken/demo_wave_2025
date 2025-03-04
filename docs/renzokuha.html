@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="phys-ken">
-<meta name="dcterms.date" content="2025-03-02">
 
-<title>【物理基礎】波とエネルギー</title>
+<title>2&nbsp; 連続波の表し方 – 【物理基礎】波とエネルギー</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./nami_no_arawashikata.html" rel="next">
+<link href="./kasaneawase_hansya.html" rel="next">
+<link href="./nami_no_arawashikata.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -70,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -82,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">はじめに</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./renzokuha.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">連続波の表し方</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -109,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">はじめに</span></a>
   </div>
 </li>
@@ -121,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./renzokuha.html" class="sidebar-item-text sidebar-link">
+  <a href="./renzokuha.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">連続波の表し方</span></span></a>
   </div>
 </li>
@@ -147,10 +175,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#はじめに" id="toc-はじめに" class="nav-link active" data-scroll-target="#はじめに">はじめに</a>
+  <li><a href="#連続波とは" id="toc-連続波とは" class="nav-link active" data-scroll-target="#連続波とは"><span class="header-section-number">2.1</span> 連続波とは</a></li>
+  <li><a href="#正弦波を表す量" id="toc-正弦波を表す量" class="nav-link" data-scroll-target="#正弦波を表す量"><span class="header-section-number">2.2</span> 正弦波を表す量</a></li>
+  <li><a href="#演習問題" id="toc-演習問題" class="nav-link" data-scroll-target="#演習問題"><span class="header-section-number">2.3</span> 演習問題</a>
   <ul class="collapse">
-  <li><a href="#在校生へ" id="toc-在校生へ" class="nav-link" data-scroll-target="#在校生へ">在校生へ</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#参考資料" id="toc-参考資料" class="nav-link" data-scroll-target="#参考資料"><span class="header-section-number">2.3.1</span> 参考資料</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -160,26 +189,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">【物理基礎】波とエネルギー</h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">連続波の表し方</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>phys-ken </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">March 2, 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -189,17 +206,65 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="はじめに" class="level1 unnumbered">
-<h1 class="unnumbered">はじめに</h1>
-<p>物理基礎の波の分野の授業補助資料です。</p>
-<section id="在校生へ" class="level2">
-<h2 class="anchored" data-anchor-id="在校生へ">在校生へ</h2>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+このセクションの目標
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>このページは、あくまで授業の補助資料です。演習問題等は著作権の関係で一般公開でウェブ公開することはできません。Google classroomの添付資料を確認してください。</li>
+<li>連続波を表す量を正しく理解する。</li>
+<li>連続波について、2種類のグラフで正しく表現できる。</li>
+<li>波の関係式<span class="math inline">\(v=f \lambda\)</span>を正しく適用して、波の速さを求めることができる。</li>
 </ul>
+</div>
+</div>
+<section id="連続波とは" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="連続波とは"><span class="header-section-number">2.1</span> 連続波とは</h2>
+<ul>
+<li>1個、2個…と数えることができるような孤立した波のことをパルス波と呼びます。 <a href="http://www.info-niigata.or.jp/~ymiyata/butsuri22/33nami1/nami1_02.html"><img src="images/nami1_fig03.gif" class="img-fluid" alt="パルス波(【新潟県理化学協会研究部物理グループ】より引用)"></a></li>
+<li>それに対して、1個、2個と数えることができないような連続した波を、連続波といいます。</li>
+<li>高校の物理基礎では、正弦波と呼ばれる最もシンプルな連続波を扱います。 <a href="http://www.info-niigata.or.jp/~ymiyata/butsuri22/33nami1/nami1_02.html"><img src="images/nami1_fig07.gif" class="img-fluid" alt="正弦波(【新潟県理化学協会研究部物理グループ】より引用)"></a></li>
+</ul>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+注意
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>「正弦波」は、奥が深い現象です。インターネット等で検索すると、「単振動」と関連付けて説明されたり、「<span class="math inline">\(y = A \sin \left( 2\pi \left( \frac{x}{\lambda} - \frac{t}{T} \right) \right)\)</span>」のように数式で説明されていることもあります。</p>
+<p>物理基礎の学習の段階では細かい言葉遣いはあまり気にせず、「ウネウネした波っぽいやつ」程度に考えてくれれば結構です。</p>
+</div>
+</div>
 </section>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
+<section id="正弦波を表す量" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="正弦波を表す量"><span class="header-section-number">2.2</span> 正弦波を表す量</h2>
+<ul>
+<li>下記の映像教材を確認して、波長や周期、振動数といった言葉を理解しましょう。 <iframe width="560" height="315" src="https://www.youtube.com/embed/NNC-fTe5Rz8?si=-GXYLYQa25ufHunL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></li>
+</ul>
+<p>動画内で登場する<span class="math inline">\(v=f\lambda\)</span>や<span class="math inline">\(f=\frac{1}{T}\)</span>は、波の分野の学習でよく使う式です。</p>
+</section>
+<section id="演習問題" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="演習問題"><span class="header-section-number">2.3</span> 演習問題</h2>
+<ul>
+<li>前回学習した波の2種類のグラフに関する知識を使って、正弦波をグラフで表してみましょう。</li>
+<li>演習問題は、Google classroomで配信します。</li>
+</ul>
+<section id="参考資料" class="level3" data-number="2.3.1">
+<h3 data-number="2.3.1" class="anchored" data-anchor-id="参考資料"><span class="header-section-number">2.3.1</span> 参考資料</h3>
+<ul>
+<li><p>ここまでの学習内容を1本にまとめた動画です。後半の「位相」の部分は、物理基礎の単元では扱いません。</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j6D6HztBrUU?si=Iq4c3KLac6PBBKnx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe></li>
+</ul>
 
 
 </section>
@@ -625,10 +690,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./nami_no_arawashikata.html" class="pagination-link" aria-label="波の表し方">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">波の表し方</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./nami_no_arawashikata.html" class="pagination-link" aria-label="波の表し方">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">波の表し方</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./kasaneawase_hansya.html" class="pagination-link" aria-label="波の重ね合わせと反射">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">波の重ね合わせと反射</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

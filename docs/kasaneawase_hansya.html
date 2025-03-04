@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="phys-ken">
-<meta name="dcterms.date" content="2025-03-02">
 
-<title>【物理基礎】波とエネルギー</title>
+<title>3&nbsp; 波の重ね合わせと反射 – 【物理基礎】波とエネルギー</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./nami_no_arawashikata.html" rel="next">
+<link href="./references.html" rel="next">
+<link href="./renzokuha.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -82,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">はじめに</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./kasaneawase_hansya.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">波の重ね合わせと反射</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -109,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">はじめに</span></a>
   </div>
 </li>
@@ -127,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./kasaneawase_hansya.html" class="sidebar-item-text sidebar-link">
+  <a href="./kasaneawase_hansya.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">波の重ね合わせと反射</span></span></a>
   </div>
 </li>
@@ -147,11 +146,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#はじめに" id="toc-はじめに" class="nav-link active" data-scroll-target="#はじめに">はじめに</a>
+  <li><a href="#重ね合わせの原理独立性反射" id="toc-重ね合わせの原理独立性反射" class="nav-link active" data-scroll-target="#重ね合わせの原理独立性反射"><span class="header-section-number">3.1</span> 重ね合わせの原理・独立性・反射</a></li>
+  <li><a href="#作図方法" id="toc-作図方法" class="nav-link" data-scroll-target="#作図方法"><span class="header-section-number">3.2</span> 作図方法</a>
   <ul class="collapse">
-  <li><a href="#在校生へ" id="toc-在校生へ" class="nav-link" data-scroll-target="#在校生へ">在校生へ</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#重ね合わせの作図" id="toc-重ね合わせの作図" class="nav-link" data-scroll-target="#重ね合わせの作図"><span class="header-section-number">3.2.1</span> 重ね合わせの作図</a></li>
+  <li><a href="#反射波の作図" id="toc-反射波の作図" class="nav-link" data-scroll-target="#反射波の作図"><span class="header-section-number">3.2.2</span> 反射波の作図</a></li>
   </ul></li>
+  <li><a href="#演習問題" id="toc-演習問題" class="nav-link" data-scroll-target="#演習問題"><span class="header-section-number">3.3</span> 演習問題</a></li>
   </ul>
 </nav>
     </div>
@@ -160,26 +161,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">【物理基礎】波とエネルギー</h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">波の重ね合わせと反射</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>phys-ken </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">March 2, 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -189,20 +178,57 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="はじめに" class="level1 unnumbered">
-<h1 class="unnumbered">はじめに</h1>
-<p>物理基礎の波の分野の授業補助資料です。</p>
-<section id="在校生へ" class="level2">
-<h2 class="anchored" data-anchor-id="在校生へ">在校生へ</h2>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+このセクションの目標
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>このページは、あくまで授業の補助資料です。演習問題等は著作権の関係で一般公開でウェブ公開することはできません。Google classroomの添付資料を確認してください。</li>
+<li>重ね合わせの原理と独立性について、自分の言葉で説明できる。</li>
+<li>重ね合わせと反射の作図を正しく行うことができる。</li>
 </ul>
+</div>
+</div>
+<section id="重ね合わせの原理独立性反射" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="重ね合わせの原理独立性反射"><span class="header-section-number">3.1</span> 重ね合わせの原理・独立性・反射</h2>
+<ul>
+<li>まずは、NHK高校講座の映像教材を見て、単元の概要をつかみましょう。</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www2.nhk.or.jp/kokokoza/watch/?das_id=D0022150286_00000"><img src="images/nhk_site-01.png" class="img-fluid figure-img" alt="画像をクリック(NHKサイトに飛びます)"></a></p>
+<figcaption>画像をクリック(NHKサイトに飛びます)</figcaption>
+</figure>
+</div>
 </section>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
+<section id="作図方法" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="作図方法"><span class="header-section-number">3.2</span> 作図方法</h2>
+<ul>
+<li>教科書○ページを見ながら作業しましょう。以下の動画も参考になると思います。</li>
+</ul>
+<section id="重ね合わせの作図" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="重ね合わせの作図"><span class="header-section-number">3.2.1</span> 重ね合わせの作図</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JgOtFSWcqOI?si=dpP5xa6UIZWw_7fs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+</section>
+<section id="反射波の作図" class="level3" data-number="3.2.2">
+<h3 data-number="3.2.2" class="anchored" data-anchor-id="反射波の作図"><span class="header-section-number">3.2.2</span> 反射波の作図</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/E_Wn8fYaSMs?si=FFVfYEGIGbtaF0gN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+</section>
+</section>
+<section id="演習問題" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="演習問題"><span class="header-section-number">3.3</span> 演習問題</h2>
+<ul>
+<li>演習問題はGoogle classroomで配信しています。</li>
+</ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -625,10 +651,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./renzokuha.html" class="pagination-link" aria-label="連続波の表し方">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">連続波の表し方</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./nami_no_arawashikata.html" class="pagination-link" aria-label="波の表し方">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">波の表し方</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./references.html" class="pagination-link" aria-label="References">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">References</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

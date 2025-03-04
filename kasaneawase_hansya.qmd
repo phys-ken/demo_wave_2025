@@ -1,0 +1,38 @@
+---
+jupyter: python3
+---
+
+# 波の重ね合わせと反射
+
+::: callout-tip
+## このセクションの目標
+
+-   重ね合わせの原理と独立性について、自分の言葉で説明できる。
+-   重ね合わせと反射の作図を正しく行うことができる。
+:::
+
+## 重ね合わせの原理・独立性・反射
+
+-   まずは、NHK高校講座の映像教材を見て、単元の概要をつかみましょう。
+
+[![画像をクリック(NHKサイトに飛びます)](images/nhk_site-01.png)](https://www2.nhk.or.jp/kokokoza/watch/?das_id=D0022150286_00000)
+
+## 作図方法
+
+-   教科書○ページを見ながら作業しましょう。以下の動画も参考になると思います。
+
+### 重ね合わせの作図
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JgOtFSWcqOI?si=dpP5xa6UIZWw_7fs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+### 反射波の作図
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/E_Wn8fYaSMs?si=FFVfYEGIGbtaF0gN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+## 演習問題
+
+-   演習問題はGoogle classroomで配信しています。
