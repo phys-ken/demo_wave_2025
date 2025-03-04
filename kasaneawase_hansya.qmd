@@ -15,7 +15,7 @@ jupyter: python3
 
 -   まずは、NHK高校講座の映像教材を見て、単元の概要をつかみましょう。
 
-[![画像をクリック(NHKサイトに飛びます)](images/nhk_site-01.png)](https://www2.nhk.or.jp/kokokoza/watch/?das_id=D0022150286_00000)
+[![画像をクリック(NHKサイトに飛びます)](images/nhk_site.png)](https://www2.nhk.or.jp/kokokoza/watch/?das_id=D0022150286_00000)
 
 ## 作図方法
 

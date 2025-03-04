@@ -41,4 +41,6 @@ jupyter: python3
 
 -   ここまでの学習内容を1本にまとめた動画です。後半の「位相」の部分は、物理基礎の単元では扱いません。
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/j6D6HztBrUU?si=Iq4c3KLac6PBBKnx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/j6D6HztBrUU?si=Iq4c3KLac6PBBKnx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+    </iframe>
